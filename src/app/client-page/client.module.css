@@ -1,0 +1,40 @@
+/* app/client/client.module.css */
+
+.client_container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .client_container h1 {
+    font-size: 32px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+  }
+  
+  .client_container p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .back_button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back_button:hover {
+    background-color: #0056c1;
+  }
+  
